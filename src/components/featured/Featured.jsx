@@ -1,7 +1,8 @@
-import { InfoOutlined, PlayArrow } from "@material-ui/icons";
+import React from "react";
 import "./featured.scss";
+import { InfoOutlined, PlayArrow } from "@material-ui/icons";
 
-export default function Featured({ type }) {
+const Featured = ({ type }) => {
   return (
     <div className="featured">
       {type && (
@@ -53,4 +54,6 @@ export default function Featured({ type }) {
       </div>
     </div>
   );
-}
+};
+
+export default Featured;
