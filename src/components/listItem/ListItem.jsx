@@ -1,9 +1,12 @@
-import React from 'react';
-import './ListItem.scss';
-const ListItem = () => {
-  return (
-	<div>ListItem</div>
-  )
-}
+import React from "react";
+import "./listItem.scss";
 
-export default ListItem
+const ListItem = () => {
+  return(
+	  <div className="listItem">
+		  item
+	  </div>
+  )
+};
+
+export default ListItem;
